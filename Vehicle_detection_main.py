@@ -86,7 +86,7 @@ while(cap.isOpened()):
 
 
         for i in cars:
-            cv2.putText(frame, str(i.getId()), (i.getX(), i.getY()), font, 0.3, i.getRGB(), 1, cv2.LINE_AA)
+            cv2.putText(frame, str(i.getId()), (i.getX(), i.getY()), font, 0.3, (255,255,0), 1, cv2.LINE_AA)
             if line_down+20<= i.getY() <= line_up-20:
                a = (h + (.74*w)- 147)
 
