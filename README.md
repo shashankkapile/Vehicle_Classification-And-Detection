@@ -1,6 +1,6 @@
 VEHICLE_DETECTION AND COUNTING
 
-This is a simple vehile detection project using OpenCV
+This is a simple vehicle Detection ,counting and classification program 
 
 Here I used background subtractions methods of OpenCV Library of Python and morphological transformation.
 Here we defined a vehicle class  named as Vehicle.py
