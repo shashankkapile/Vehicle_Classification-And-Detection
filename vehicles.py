@@ -14,7 +14,6 @@ class Car:
         self.max_age=max_age
         self.dir=None
 
-    
     def getTracks(self):
         return self.tracks
 
@@ -79,7 +78,7 @@ class Car:
             self.done=True
         return  True
 
-
+#Class2
 
 class MultiCar:
     def __init__(self,cars,xi,yi):
