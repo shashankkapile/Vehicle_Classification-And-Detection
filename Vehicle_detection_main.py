@@ -88,7 +88,7 @@ while(cap.isOpened()):
         for i in cars:
             cv2.putText(frame, str(i.getId()), (i.getX(), i.getY()), font, 0.3, (255,255,0), 1, cv2.LINE_AA)
             if line_down+20<= i.getY() <= line_up-20:
-               a = (h + (.74*w)- 147)
+               a = (h + (.74*w)- 100)
 
                if a >= 0:
                      cv2.putText(frame, "Truck", (i.getX(), i.getY()), font, 1, (0,0,255), 2, cv2.LINE_AA)
