@@ -2,6 +2,9 @@ import cv2
 import numpy as np
 import time
 
+#import vehicles and use 'vehicles' as the object
+import vehicles as vehicles
+
 cap=cv2.VideoCapture("video.mp4")
 fgbg=cv2.createBackgroundSubtractorMOG2(detectShadows=False,history=200,varThreshold = 90)
 kernalOp = np.ones((3,3),np.uint8)
